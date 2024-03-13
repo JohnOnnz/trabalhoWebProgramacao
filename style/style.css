@@ -1,0 +1,85 @@
+body{
+    width: 75%;
+    margin: auto;
+}
+
+h1{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgba(0, 195, 255, 0.441);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 75px;
+    font-size: 40px;
+
+}
+
+.Formação{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgba(0, 195, 255, 0.441);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 40px;
+}
+.ResumoProf{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgba(0, 195, 255, 0.441);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+.SobreMim p{
+    width: 70%;
+    margin: auto;
+   font-size: 20px;
+}
+
+h3{
+    border-radius: 5px;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#Uni{
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+}
+.academica p{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+}
+.rodape p{
+    padding: 5px;
+    margin-top: 25px;
+    background-color: rgba(0, 195, 255, 0.441);
+    text-align: center;
+}
+
+/* botao contato */
+
+.contato-btn {
+    background-color: rgba(0, 195, 255, 0.441);
+    border-radius: 20px;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+  
+  /* contato div */
+
+  .contato{
+    
+    margin: auto;
+    width: 70%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+  }
+

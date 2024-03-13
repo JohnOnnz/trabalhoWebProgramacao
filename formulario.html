@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="arquivo.php" method="get" class="cadastro"> 
+
+
+        <FIeldset>
+            <legend>Dados De Contato</legend>
+
+            <div class="campo_100">
+                <label for="nome">Nome:</label>
+                        <input type="text" id="nome" required placeholder="Digite Seu Nome">
+            </div>
+
+            <div class="campo_50">
+                <div>
+                    <label for="date">Nascimento</label>
+                    <input type="date" id="date" required >
+                </div>
+                <div>
+                    <label for="tell">Contato</label>
+                    <input type="tel" id="tell" placeholder="   (XX) XXXX - XXXX">
+                </div>
+            </div>
+
+            <div class="campo_100">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="mail" placeholder="Digite seu E-mail">
+            </div>
+
+        </FIeldset> 
+
+
+</body>
+</html>
